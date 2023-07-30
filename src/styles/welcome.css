@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(to left, #4b6cb7, #182848);
+  }
+  .funcao {
+    font-size: 13vw;
+    text-align: start;
+    position: relative;
+    
+  }
+  .funcao::before {
+    content: "OI, EU SOU O VINICIUS";
+    position: absolute;
+    font-size: 1.5vw;
+    margin-top: 15px;
+  }
+  .funcao::after {
+    content: "Tenho 18 anos e sou desenvolvedor frontend com 1 ano de experiência trabalhando com projetos próprios.";
+    font-size: 1.4vw;
+    position: absolute;
+    right: 0;
+  }
+  .link {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    width: auto;
+  }
+  img {
+    width: 4vw;
+    height: 4vw;
+    margin: 15px;
+  }
+  .sobre {
+    font-size: 11pt;
+  }
+  span {
+    font-family: "Noto Sans", sans-serif;
+  }
+  .redeSocial {
+    display: inline-block;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .redeSocial:hover {
+    transform: translateY(-10px);
+  }

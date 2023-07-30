@@ -1,0 +1,25 @@
+.containerProject {
+    margin-top: 70px;
+    width: 40vw;
+  }
+  .fundoProjeto {
+    text-align: center;
+    display: grid;
+    width: 35vw;
+  }
+  .imgProjeto {
+    width: 40vw;
+    height: 27vw;
+    margin: auto;
+  }
+  .name {
+    font-size: 3.5vw;
+  }
+  .descricao {
+    font-size: 12pt;
+  }
+  @media screen and (max-width: 453px) {
+    .descricao {
+      font-size: 8pt;
+    }
+  }
