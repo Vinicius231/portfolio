@@ -17,7 +17,7 @@ export default function Welcome() {
               <img src={gitImg}></img>
             </a>
             {/* Não esquecer dessa parte */}
-            <a href="#" className="redeSocial">
+            <a href="https://www.linkedin.com/in/vinicius-manoel-156a66285/" className="redeSocial">
               <img src={linkedinImg}></img>
             </a>
             {/* Não esquecer dessa parte */}
