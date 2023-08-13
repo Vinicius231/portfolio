@@ -1,25 +1,35 @@
 import Welcome from "./components/Welcome";
+import Modal from "./components/Modal";
 import Project from "./components/Project";
-import { useState} from "react";
+import noProject from "./imgs/dispositivo.png";
+import galeria from "./imgs/plataforma.png";
+import { useState } from "react";
 import "./App.css";
 
 function App() {
   const [arrayProject, setArrayProject] = useState([
     {
-      nome: "Projeto 1",
-      descricao: "Descrição do projeto 1 Descrição do projeto 1",
+      nome: "Galeria de Quadro",
+      img: galeria,
+      site: "https://artedecoracao.vercel.app/",
+      repositorio: "https://github.com/Vinicius231/site",
     },
     {
       nome: "Projeto 2",
-      descricao: "Descrição do projeto 2 Descrição do projeto 2 ",
+      img: noProject,
+      site: "https://artedecoracao.vercel.app/",
+      repositorio: "https://github.com/Vinicius231/site",
     },
     {
       nome: "Projeto 3",
-      descricao: "Descrição do projeto 3 Descricação do projeto 3",
+      img: noProject,
+      site: "https://artedecoracao.vercel.app/",
+      repositorio: "https://github.com/Vinicius231/site",
     },
   ]);
   return (
     <div className="App">
+      <Modal nome={arrayProject} />
       <div className="containerWelcome">
         <Welcome />
       </div>
@@ -28,8 +38,9 @@ function App() {
           return (
             <Project
               nome={arrayProject[i].nome}
-              descricao={arrayProject[i].descricao}
+              img={arrayProject[i].img}
               key={i}
+              myKey={i}
             />
           );
         })}

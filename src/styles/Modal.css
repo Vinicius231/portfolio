@@ -1,0 +1,49 @@
+.FundoModal {
+    background: rgba(255, 255, 255, 0.267);
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    position: absolute;
+    position: fixed;
+}
+.fechar {
+    justify-content: end;
+    display: flex;
+    height: 20px;
+    width: 250px;
+}
+.x {
+    margin-left: 10px;
+    cursor: pointer;
+}
+.modal {
+    background: white;
+    position: fixed;
+    color: black;
+    width: 270px;
+    height: 250px;
+    font: bolder 17pt Arial;
+    border-radius: 15px;
+}
+.modalBTN {
+    margin-top: 50px;
+    justify-content: space-around;
+    display: flex;
+}
+button {
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 1px solid black;
+    transition: 0.5s;
+    font: bolder 12pt Arial;
+}
+button:hover {
+    border: 1px solid white;
+    color: white;
+    background: rgb(7, 22, 5);
+}

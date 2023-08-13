@@ -8,15 +8,14 @@
     width: 35vw;
   }
   .imgProjeto {
-    width: 40vw;
-    height: 27vw;
+    width: 41vw;
+    height: 23vw;
     margin: auto;
+    cursor: pointer;
   }
   .name {
     font-size: 3.5vw;
-  }
-  .descricao {
-    font-size: 12pt;
+    cursor: pointer;
   }
   @media screen and (max-width: 453px) {
     .descricao {
