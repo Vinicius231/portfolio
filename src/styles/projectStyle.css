@@ -5,13 +5,16 @@
   .fundoProjeto {
     text-align: center;
     display: grid;
-    width: 35vw;
+    width: 40vw;
+    overflow: hidden;
+    justify-content: center;
   }
   .imgProjeto {
-    width: 41vw;
-    height: 23vw;
+    width: 49vw;
+    height: 30vw;
     margin: auto;
     cursor: pointer;
+    justify-content: center;
   }
   .name {
     font-size: 3.5vw;

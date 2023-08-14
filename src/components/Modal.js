@@ -13,8 +13,6 @@ export default function Modal(nome) {
     var eTarget = e.target;
     var main = eTarget.closest("main");
     if (
-      eTarget.classList.contains("fundoProjeto") ||
-      eTarget.classList.contains("containerProject") ||
       eTarget.classList.contains("imgProjeto") ||
       eTarget.classList.contains("name")
     ) {

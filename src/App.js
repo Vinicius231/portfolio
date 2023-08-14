@@ -16,13 +16,13 @@ function App() {
     },
     {
       nome: "Projeto 2",
-      img: noProject,
+      img: galeria,
       site: "https://artedecoracao.vercel.app/",
       repositorio: "https://github.com/Vinicius231/site",
     },
     {
       nome: "Projeto 3",
-      img: noProject,
+      img: galeria,
       site: "https://artedecoracao.vercel.app/",
       repositorio: "https://github.com/Vinicius231/site",
     },
