@@ -1,5 +1,5 @@
 .FundoModal {
-    background: rgba(255, 255, 255, 0.267);
+    background: rgba(0, 0, 0, 0.5);
     width: 100%;
     height: 100vh;
     text-align: center;
@@ -26,7 +26,8 @@
     width: 270px;
     height: 250px;
     font: bolder 17pt Arial;
-    border-radius: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
 }
 .modalBTN {
     margin-top: 50px;
@@ -45,5 +46,5 @@ button {
 button:hover {
     border: 1px solid white;
     color: white;
-    background: rgb(7, 22, 5);
+    background: rgb(13, 14, 13);
 }
